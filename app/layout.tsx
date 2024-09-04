@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "CarePulse",
-  description: "A heathcare management system.",
+  description: "A heathcare management system",
 };
 
 export default function RootLayout({
