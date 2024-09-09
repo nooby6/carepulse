@@ -6,7 +6,7 @@ export default function Home() {
    <div className="flex h-screen maxh-screen">
     <section className="remove-scrollbar container my-auto">
       <div className="sub-container max-w-[496px]"
-        <Image />
+        <Image src="./assets/icons/logo-full.svg" />
       </div>
     </section>
   </div>
