@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import PatientForm from "@/components/ui/forms/PatientForm";
 import Image from "next/image"
-
 export default function Home() {
-  return (
-   <div className="flex h-screen maxh-screen">
+
     <section className="remove-scrollbar container my-auto">
       <div className="sub-container max-w-[496px]">
         <Image 
@@ -16,8 +14,10 @@ export default function Home() {
         />
 
         <PatientForm/>
+
+        <div className="text-14-regular"></div>
+
       </div>
     </section>
-  </div>
-  );
+  )
 }
