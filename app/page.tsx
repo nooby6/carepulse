@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import PatientForm from "@/components/ui/forms/PatientForm";
 import Image from "next/image"
 
 export default function Home() {
@@ -12,6 +13,8 @@ export default function Home() {
         alt="patient"
         className="nb-12 h-10 w-fit"
         />
+
+        <PatientForm/>
       </div>
     </section>
   </div>
