@@ -133,15 +133,11 @@
 
   /* ===== ALIGNMENTS */
   .flex-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @apply flex items-center justify-center;
   }
-  
+
   .flex-between {
-    display: flex;
-    align-items: center;
-    justify-content: between;
+    @apply flex items-center justify-between;
   }
 
   /* ===== TYPOGRAPHY */
