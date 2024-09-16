@@ -13,7 +13,7 @@ import {
   FormLabel,
   FormMessage,
 } from "./forms"
-import { Input } from "../input"
+import { Input } from "../../ui/f"
  
 const formSchema = z.object({
   username: z.string().min(2, {
