@@ -12,8 +12,8 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/components/ui/forms"
-import { Input } from "@/components/ui/input"
+} from "./forms"
+import { Input } from "../input"
  
 const formSchema = z.object({
   username: z.string().min(2, {
@@ -42,7 +42,7 @@ const PatientForm = () => {
         <FormField
           control={form.control}
           name="username"
-          render={({ field }) => (
+          render={({ field }: { field: any }) => (
             <FormItem>
               <FormLabel>Username</FormLabel>
               <FormControl>
