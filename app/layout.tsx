@@ -41,7 +41,7 @@ export default function RootLayout({
       <body
         className={cn(
           "min-h-screen bg-dark-300 font-sans antialiased", // Applying minimum height, background color, font, and antialiasing styles.
-          fontSans.variable // Adding the CSS variable for the font.
+          fontSans.variable, // Adding the CSS variable for the font.
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="dark">
