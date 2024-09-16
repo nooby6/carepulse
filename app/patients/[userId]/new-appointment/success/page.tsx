@@ -6,6 +6,18 @@ import { Doctors } from "@/constants";
 import { getAppointment } from "@/lib/actions/appointment.actions";
 import { formatDateTime } from "@/lib/utils";
 
+/**
+ * Component that displays the success message after an appointment request has been submitted.
+ *
+ * @param {SearchParamProps} props - The properties passed to the component.
+ * @param {object} props.searchParams - The search parameters from the URL.
+ * @param {object} props.params - The route parameters.
+ * @param {string} props.params.userId - The user ID from the route parameters.
+ *
+ * @returns {JSX.Element} The JSX element representing the success message page.
+ *
+ * @async
+ */
 const RequestSuccess = async ({
   searchParams,
   params: { userId },
