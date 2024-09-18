@@ -6,6 +6,30 @@ import { columns } from "@/components/table/columns";
 import { DataTable } from "@/components/table/DataTable";
 import { getRecentAppointmentList } from "@/lib/actions/appointment.actions";
 
+/**
+ * AdminPage component renders the admin dashboard page.
+ *
+ * This component fetches the recent appointment list and displays various statistics
+ * and a data table of appointments. It includes a header with a logo and a title,
+ * a welcome message, and sections for appointment statistics and a data table.
+ *
+ * @async
+ * @function AdminPage
+ * @returns {JSX.Element} The JSX code for the admin dashboard page.
+ *
+ * @example
+ * ```tsx
+ * import AdminPage from './admin/page';
+ *
+ * const App = () => (
+ *   <div>
+ *     <AdminPage />
+ *   </div>
+ * );
+ *
+ * export default App;
+ * ```
+ */
 const AdminPage = async () => {
   const appointments = await getRecentAppointmentList();
 
