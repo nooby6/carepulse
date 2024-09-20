@@ -4,15 +4,19 @@ import Link from "next/link";
 import { PatientForm } from "@/components/forms/PatientForm";
 import { PasskeyModal } from "@/components/PasskeyModal";
 
+// Define the Home component, which takes searchParams as a prop
 const Home = ({ searchParams }: SearchParamProps) => {
+  // Determine if the user is an admin based on the searchParams
   const isAdmin = searchParams?.admin === "true";
 
   return (
     <div className="flex h-screen max-h-screen">
+      {/* Conditionally render the PasskeyModal if the user is an admin */}
       {isAdmin && <PasskeyModal />}
 
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[496px]">
+          {/* Render the logo image */}
           <Image
             src="/assets/icons/logo-full.svg"
             height={1000}
@@ -21,12 +25,14 @@ const Home = ({ searchParams }: SearchParamProps) => {
             className="mb-12 h-10 w-fit"
           />
 
+          {/* Render the PatientForm component */}
           <PatientForm />
 
           <div className="text-14-regular mt-20 flex justify-between">
-            <p className="justify-items-end text-dark-600 xl:text-left">
+            <p className="text-dark-600 justify-items-end xl:text-left">
               © 2024 CarePluse
             </p>
+            {/* Link to the admin view */}
             <Link href="/?admin=true" className="text-green-500">
               Admin
             </Link>
@@ -34,6 +40,7 @@ const Home = ({ searchParams }: SearchParamProps) => {
         </div>
       </section>
 
+      {/* Render the onboarding image */}
       <Image
         src="/assets/images/onboarding-img.png"
         height={1000}
