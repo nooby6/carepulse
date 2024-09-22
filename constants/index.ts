@@ -1,5 +1,7 @@
+// Gender options for the patient form
 export const GenderOptions = ["Male", "Female", "Other"];
 
+// Default values for the patient form
 export const PatientFormDefaultValues = {
   firstName: "",
   lastName: "",
@@ -26,6 +28,7 @@ export const PatientFormDefaultValues = {
   privacyConsent: false,
 };
 
+// Identification types for the patient form
 export const IdentificationTypes = [
   "Birth Certificate",
   "Driver's License",
@@ -40,6 +43,7 @@ export const IdentificationTypes = [
   "Voter ID Card",
 ];
 
+// List of doctors with their images and names
 export const Doctors = [
   {
     image: "/assets/images/dr-green.png",
@@ -79,6 +83,7 @@ export const Doctors = [
   },
 ];
 
+// Status icons for different appointment statuses
 export const StatusIcon = {
   scheduled: "/assets/icons/check.svg",
   pending: "/assets/icons/pending.svg",
