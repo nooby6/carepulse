@@ -1,7 +1,7 @@
 "use client";
 
-import Head from "next/head";
 import * as Sentry from "@sentry/nextjs";
+import Head from "next/head";
 
 export default function Page() {
   return (
@@ -59,7 +59,7 @@ export default function Page() {
                 if (!res.ok) {
                   throw new Error("Sentry Example Frontend Error");
                 }
-              },
+              }
             );
           }}
         >
