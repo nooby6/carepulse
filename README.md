@@ -996,16 +996,7 @@ Public assets used in the project can be found [here](https://drive.google.com/f
 
 ## <a name="more">🚀 More</a>
 
-**Advance your skills with Next.js 14 Pro Course**
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://jsmastery.pro/next14" target="_blank">
-<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/557837ce-f612-4530-ab24-189e75133c71" alt="Project Banner">
-</a>
-
-<br />
-<br />
 
 **Accelerate your professional journey with the Expert Training program**
 
