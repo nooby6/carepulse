@@ -7,7 +7,7 @@ import { DataTable } from "@/components/table/DataTable";
 import { getRecentAppointmentList } from "@/lib/actions/appointment.actions";
 
 /**
- * AdminPage component renders the admin dashboard page.
+ * AdminPage component renders admin dashboard page.
  *
  * This component fetches the recent appointment list and displays various statistics
  * and a data table of appointments. It includes a header with a logo and a title,
